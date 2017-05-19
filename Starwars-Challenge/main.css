@@ -1,0 +1,17 @@
+header {
+	background-color: #e8be52;
+	padding-left: 52px;
+}
+
+.box {
+	text-align: center;
+}
+
+img {
+	width: 300px;
+}
+
+div.box {
+	border: 1px solid #f2f2f2;
+	margin-bottom: 20px;
+}

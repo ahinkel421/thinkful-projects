@@ -1,0 +1,15 @@
+h1 {
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+	background-color: blue;
+}
+
+img {
+	width: 30%;
+}
+
+.history {
+	font-size: 35px;
+	color: blue;
+}

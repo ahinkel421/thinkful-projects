@@ -1,0 +1,44 @@
+main {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row1, .row2 {
+	font-size: 0;
+}
+
+.grey_box, .black_box, .orange_box {
+	border: 1px solid black;
+	height: 300px;
+	width: 33.33%;
+	display: inline-block;
+}
+
+.green_box, .blue_box {
+	width: 50%;
+	height: 200px;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.green_box {
+	background-color: green;
+}
+
+.blue_box {
+	background-color: blue;
+}
+
+.grey_box {
+	background-color: grey;
+}
+
+.black_box {
+	background-color: black;
+}
+
+.orange_box {
+	background-color: orange;
+}
+
