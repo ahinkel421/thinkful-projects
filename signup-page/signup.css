@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #5593e0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+header, section {
+	text-align: center;
+}
+
+.logo {
+	height: 35px;
+}
+
+section {
+	background-color: white;
+	border-radius: 1%;
+	height: 440px;
+	margin: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	position: relative;
+	width: 400px;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 35px;
+	color: #3a3a3a;
+	padding-top: 28px;
+}
+
+input, button {
+	width: 320px;
+	padding: 15px;
+}
+
+label {
+	margin-right: 300px;
+}
+
+input {
+	border: 2px solid #e6e6e6;
+	border-radius: 2%;
+	font-size: 15px;
+}
+
+#Email, #Password {
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
+button {
+	margin-bottom: 10px;
+	font-size: 20px;
+	background-color: #7dc179;
+	border-radius: 2%;
+	font-weight: bold;
+	color: white;
+	border: 2px solid #7dc179;
+}
+
+button:hover {
+	background-color: #62985f;
+}
+
+.forgot {
+	color: #b6afa5;
+
+}
+
+p {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+a {
+	color: white;
+}
