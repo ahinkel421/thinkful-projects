@@ -60,7 +60,7 @@ img {
 }
 
 form {
-	padding: 20px;
+	padding: 18px 0px;
 }
 
 input {
@@ -70,17 +70,17 @@ input {
 }
 
 .pages {
-	padding: 10px;
-	font-size: 18px;
+	font-size: 0;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	display: inline-block;
 }
 
 .change_page {
 	font-size: 18px;
 	text-decoration: none;
-	border: 1px solid #DDDDDD;
 	color: black;
-	padding: 8px;
-	border-radius: 6%;
+	padding: 8px 15px;
 	display: inline-block;
 }
 
@@ -89,28 +89,27 @@ input {
 }
 
 .page_num {
-	border: 1px solid #DDDDDD;
-	border-radius: 6%;
-	padding: 8px;
-	padding-left: 20px;
-	padding-right: 20px;
+	font-size: 18px;
+	padding: 8px 25px;
 	display: inline-block;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
 }
 
 .all_jobs {
 	font-size: 18px;
-	padding-left: 8px;
 	padding-top: 18px;
 }
 
 .job {
-	padding: 8px;
+	padding: 8px 0px;
 }
 
 .date_place {
 	color: grey;
 	padding: 5px;
 }
+
 
 .joblink {
 	font-weight: bold;
