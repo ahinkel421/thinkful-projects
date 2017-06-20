@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>Trial by Trivia</title>
-	<link rel="stylesheet" type="text/css" href="test.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Fondamento" rel="stylesheet">
 	<meta charset="utf-8">
 	<meta name="Trial-by-Trivia" content="A Game of Thrones Quiz App">
@@ -15,31 +15,32 @@
 	</header>
 
 	<main>
-		<div class="scroll" id="first-scroll">
+		<div class="scroll hidden" id="first-scroll">
 			<h2 class="scroll-header">Welcome to Trial by Trivia! Just a few quick things before we get started: </h2>
 			<ol class="warnings">
-				<li><span class="spoilers">[SPOILERS AHEAD]</span> Do not proceed unless you are fully caught up through season 6 of GoT.</li>
+				<li><span class="spoilers">[SPOILERS AHEAD]</span> Do not proceed unless you are fully caught up through season 6 of Game of Thrones.</li>
 				<li>The content in this quiz pertains of the T.V. show “Game of Thrones,” not the book series “A Song of Ice and Fire.” </li>
 			</ol>
 			<h2 class="scroll-footer">And now your watch begins. . . Click the button below when you're ready to begin. Good luck!</h2>
-			<button class="begin-button">Begin Quiz</button>
+			<button id="begin-button">Begin Quiz</button>
 		</div>
-		<div class="scroll hidden" id="second-scroll">
-			<h2 class="question">(<span class="question-number"></span>/10) </h2>
-			<div class="answer"></div>
-			<div class="answer"></div>
-			<div class="answer"></div>
-			<div class="answer"></div>
-			<button>Next Question -></button>
+		<div class="scroll" id="second-scroll">
+			<h2 id="question">(<span class="question-number"></span>/10) BONUS QUESTION: As of season 6, what is Daenerys Targaryen’s full title?</h2>
+			<div class="answer">-Daenerys Stormborn of the House Targaryen, First of Her Name, Queen of the Rhoynar and the First Men, Mhysa, Mother of Dragons and Breaker of Chains.</div>
+			<div class="answer">-Daenerys Stormborn of the House Targaryen, First of Her Name, the Unburnt, Queen of the Andals and the First Men, Khaleesi of the Great Grass Sea, Breaker of Chains, and Mother of Dragons.</div>
+			<div class="answer">-Daenerys Stormborn of the House Targaryen, Boaster of Titles, the Braggadocios, Queen of the Andals and the Eunuchs, Khaleesi of Those Shirtless Guys on Horses, Bane of the Slave Owners and Mother of Dragons.</div>
+			<div class="answer">-How could I possibly memorize all that?!</div>
+			<button id="next-button">Next Question -></button>
 		</div>
 		<div class="scroll hidden" id="third-scroll">
-			<h2>And now your watch is ended. . .</h2>
-			<h2>Final Score: <span class="user-score"></span>/10</h2>
-			<h3 class="user-review"></h3>
-			<div class="gif"></div>
+			<h2 class="last-header">And now your watch is ended. . .</h2>
+			<h2 class="last-header">Final Score: <span class="user-score"></span>/10</h2>
+			<h3 class="user-review">Nice job! You certainly know your stuff. You win a nice pork sausage, courtesy of Theon Greyjoy…</h3>
+			<div id="gif-box"><img class="gif" src="https://media.giphy.com/media/LXP19BrVaOOgE/giphy.gif" onload="google.aft&amp;&amp;google.aft(this)" width="450" height="250" alt="Image result for game of thrones gif"></div>
 			<footer>If you'd like to play again, you can click the button below to restart the quiz. Otherwise, thanks for playing!</footer>
-			<button>Play Again</button>
+			<button id="play-again">Play Again</button>
 		</div>
 	</main>
+
 </body>
 </html>
