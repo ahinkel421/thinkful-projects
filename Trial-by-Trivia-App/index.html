@@ -19,17 +19,17 @@
 			<h2 class="scroll-header">Welcome to Trial by Trivia! Just a few quick things before we get started: </h2>
 			<ol class="warnings">
 				<li><span class="spoilers">[SPOILERS AHEAD]</span> Do not proceed unless you are fully caught up through season 6 of Game of Thrones.</li>
-				<li>The content in this quiz pertains of the T.V. show “Game of Thrones,” not the book series “A Song of Ice and Fire.” </li>
+				<li>The content in this quiz pertains of the TV show “Game of Thrones,” not the book series “A Song of Ice and Fire.” </li>
 			</ol>
 			<h2 class="scroll-footer">And now your watch begins. . . Click the button below when you're ready to begin. Good luck!</h2>
 			<button id="begin-button">Begin Quiz</button>
 		</div>
 		<div class="scroll hidden" id="second-scroll">
-			<h2 id="question">(<span class="question-number"></span>/10) BONUS QUESTION: As of season 6, what is Daenerys Targaryen’s full title?</h2>
-			<div class="answer">-Daenerys Stormborn of the House Targaryen, First of Her Name, Queen of the Rhoynar and the First Men, Mhysa, Mother of Dragons and Breaker of Chains.</div>
-			<div class="answer">-Daenerys Stormborn of the House Targaryen, First of Her Name, the Unburnt, Queen of the Andals and the First Men, Khaleesi of the Great Grass Sea, Breaker of Chains, and Mother of Dragons.</div>
-			<div class="answer">-Daenerys Stormborn of the House Targaryen, Boaster of Titles, the Braggadocios, Queen of the Andals and the Eunuchs, Khaleesi of Those Shirtless Guys on Horses, Bane of the Slave Owners and Mother of Dragons.</div>
-			<div class="answer">-How could I possibly memorize all that?!</div>
+			<h2 id="question"><span id="question-number"></span></h2>
+			<div class="answer" id="answer-0"></div>
+			<div class="answer" id="answer-1"></div>
+			<div class="answer" id="answer-2"></div>
+			<div class="answer" id="answer-3"></div>
 			<button id="next-button">Next Question -></button>
 		</div>
 		<div class="scroll hidden" id="third-scroll">
@@ -41,6 +41,7 @@
 			<button id="play-again">Play Again</button>
 		</div>
 	</main>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="logic.js"></script>
 </body>
 </html>
