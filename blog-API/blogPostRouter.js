@@ -3,12 +3,13 @@ const router = express.Router();
 
 const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
+const app = express();
 
 const {BlogPosts} = require('./models');
 
 BlogPosts.create('My Summer Vacation', 'I had a fantastic summer in Europe! The end.', 'Adam Hinkel', 'August 7, 2017');
 BlogPosts.create('Modern Politics', 'This guy is presedent? Really?', 'Joe Shmoe', 'January 24, 2017');
-Blog Posts.create('Fallout 4 Review', 'This is a really great game. Buy it.', 'Preston Garvey', 'May 21, 2017');
+BlogPosts.create('Fallout 4 Review', 'This is a really great game. Buy it.', 'Preston Garvey', 'May 21, 2017');
 
 
 app.get('/blog-posts', (req, res) => {
@@ -51,7 +52,7 @@ app.put('/blog-posts/:id', jsonParser, (req, res) => {
 		id: req.params.id,
 		title: req.body.title,
 		content: req.body.content,
-		author: req.body.author.
+		author: req.body.author,
 		publishDate: req.body.publishDate
 	});
 	res.status(204).end();
